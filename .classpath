@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" path="src/test/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="D:/Softwares/drools-distribution-6.5.0.Final/drools-distribution-6.5.0.Final/sources/drools-beliefs-6.5.0.Final-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/drools-distribution-6.5.0.Final/drools-distribution-6.5.0.Final/sources/drools-compiler-6.5.0.Final-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/drools-distribution-6.5.0.Final/drools-distribution-6.5.0.Final/sources/drools-core-6.5.0.Final-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/drools-distribution-6.5.0.Final/drools-distribution-6.5.0.Final/sources/drools-decisiontables-6.5.0.Final-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/drools-distribution-6.5.0.Final/drools-distribution-6.5.0.Final/sources/drools-jsr94-6.5.0.Final-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/drools-distribution-6.5.0.Final/drools-distribution-6.5.0.Final/sources/drools-persistence-jpa-6.5.0.Final-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/drools-distribution-6.5.0.Final/drools-distribution-6.5.0.Final/sources/drools-pmml-6.5.0.Final-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/drools-distribution-6.5.0.Final/drools-distribution-6.5.0.Final/sources/drools-reteoo-6.5.0.Final-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/drools-distribution-6.5.0.Final/drools-distribution-6.5.0.Final/sources/drools-scorecards-6.5.0.Final-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/drools-distribution-6.5.0.Final/drools-distribution-6.5.0.Final/sources/drools-templates-6.5.0.Final-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/drools-distribution-6.5.0.Final/drools-distribution-6.5.0.Final/sources/drools-verifier-6.5.0.Final-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/drools-distribution-6.5.0.Final/drools-distribution-6.5.0.Final/sources/kie-api-6.5.0.Final-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/drools-distribution-6.5.0.Final/drools-distribution-6.5.0.Final/sources/kie-ci-6.5.0.Final-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/drools-distribution-6.5.0.Final/drools-distribution-6.5.0.Final/sources/kie-internal-6.5.0.Final-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/drools-distribution-6.5.0.Final/drools-distribution-6.5.0.Final/sources/knowledge-api-6.5.0.Final-sources.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Drools"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

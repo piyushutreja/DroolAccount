@@ -1,0 +1,33 @@
+//created on: Apr 10, 2017
+package com.sample
+
+//list any import classes here.
+
+import com.sample.entities.util.OutputDisplay;
+import  com.sample.entities.AccountingPeriod;
+
+//declare any global variables here
+
+global OutputDisplay showResults;
+
+
+rule "Your First Rule"
+
+    when
+     
+    then
+       showResults.showtext("The account exists");
+end
+
+
+rule "Revisited Accounting Period"
+    //include attributes such as "salience" here...
+    when
+     // CashFlow()
+    then
+     //showResults.showtext("The CashFlow exists,inserting an accounting Period);
+       AccountingPeriod newPeriod = new AccountingPeriod();
+       insert (newPeriod);
+end
+
+
