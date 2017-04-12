@@ -69,18 +69,19 @@ public class FirstTry {
 	@Test
 	public  void testRuleOneWithFactAndUsageOfCallback() {
 		
-		sessionStatefull=KnowledgeSessionHelper.getStatefulKnowledgeSession(kieContainer, "ksession-rules");		
+		sessionStateless=KnowledgeSessionHelper.getStatelessKnowledgeSession(kieContainer, "ksession-rules");		
 		OutputDisplay outputDisplay = new OutputDisplay();
-		sessionStatefull.setGlobal("showResults", outputDisplay);	
-		sessionStatefull.addEventListener(ruleRuntimeEventListener);
+		sessionStateless.setGlobal("showResults", outputDisplay);	
+		sessionStateless.addEventListener(ruleRuntimeEventListener);
 		Account a = new Account();
 		a.setAccountno(10);
-		FactHandle handlea = sessionStatefull.insert(a);
+		sessionStateless.
+		FactHandle handlea = sessionStateless.insert(a);
 		a.setBalance(12.0);
-		sessionStatefull.update(handlea, a);
-		sessionStatefull.delete(handlea);
-		sessionStatefull.fireAllRules();
-		
+		sessionStateless.update(handlea, a);
+		sessionStateless.delete(handlea);
+		sessionStateless.fireAllRules();
+
 				
 		System.out.println("finally phew");
 	}

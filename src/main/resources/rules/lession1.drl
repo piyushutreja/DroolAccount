@@ -5,6 +5,8 @@ package com.sample
 
 import com.sample.entities.util.OutputDisplay;
 import  com.sample.entities.AccountingPeriod;
+import  com.sample.entities.CashFlow;
+import  com.sample.entities.Account;
 
 //declare any global variables here
 
@@ -23,7 +25,8 @@ end
 rule "Revisited Accounting Period"
     //include attributes such as "salience" here...
     when
-     // CashFlow()
+     $cash :CashFlow(type == CashFlow.CREDIT )
+     $acc : Account(  )
     then
      //showResults.showtext("The CashFlow exists,inserting an accounting Period);
        AccountingPeriod newPeriod = new AccountingPeriod();

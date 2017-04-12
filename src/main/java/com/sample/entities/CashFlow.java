@@ -48,7 +48,7 @@ public class CashFlow {
                     + DateFormat.getDateInstance().format(this.mvDAte)
                     + "\n");
         } else {
-            buff.append("No Mouvement date was set\n");
+            buff.append("No Mouvement date was set\n");	
         }
         buff.append("Mouvement Amount=" + this.amount + "\n");
         buff.append("-----CashFlow end--)");
